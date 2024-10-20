@@ -30,7 +30,7 @@ const inputHandler = (state, inputStr) => {
         }
         if (inputStr === "0" && !currentStr) return state;
         ++currentNumberLength;
-        // if (currentNumberLength >= 10) return state;
+        if (currentNumberLength >= 10) return state;
         currentStr += inputStr;
         if (currentOperator !== "") {
             currentOperator = "";
