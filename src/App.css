@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+body {
+  text-align: center;
+  vertical-align: center;
+  background: #c2c2d6;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+#container {
+  width: 350px;
+  margin: 0 auto;
+  background-color: black;
+  padding: 5px;
+  height: auto;
+}
+
+.screen {
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+  word-wrap: break-word;
+  white-space: normal;
+
+}
+
+#screen-top {
+  color: rgb(255, 174, 26);
+  margin-bottom: 2px;
+  font-size: 1em;
+}
+
+#screen-bottom {
+  font-size: 1.4em;
+  margin-bottom: 5px;
+}
+
+#keyboard {
+  position: relative;
+  text-align: left;
+}
+
+#AC, #zero {
+  width: 50%;
+}
+
+#AC {
+  background-color: #ac3939;
+}
+
+button:not(#zero, #AC) {
+  width: 25%;
+}
+
+button:not(#AC, #equal) {
+  background-color: #4d4d4d;
+}
+
+#first-row, #second-row, #third-row, #fourth-row, #fifth-row {
+  height: 75px;
+}
+
+button:not(#equal) {
+  border: 0.1px solid black;
+  height: 100%;
+}
+
+button:not(#x) {
+  border-radius: 0;
+  font-size: 1.2em;
+}
+
+button:not(#x):hover {
+  color: black;
+  border: 0.1px solid grey;
+}
+
+button:not(#x):focus {
+  outline: none;
+  color: white;
+}
+
+button:not(#x):active {
+  color: black;
+}
+
+#equal {
+  position: absolute;
+  height: 150px;
+  right: 0;
+  top: 225px;
+  background-color: #004466;
+}
+
+#text {
+  margin-top: 15px;
+  color: black;
+}
+
+#author {
+  color: #00264d;
+}
