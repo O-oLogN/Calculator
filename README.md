@@ -1,8 +1,25 @@
-# React + Vite
+Project Title: React Redux Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Description: This is my inaugural project created during the freeCodeCamp web development course. It serves as a practical application of React state management using Redux. The app replicates a standard electronic calculator, allowing users to perform arithmetic operations with immediate feedback.
 
-Currently, two official plugins are available:
+Key Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Arithmetic Operations: Supports addition (+), subtraction (-), multiplication (*), and division (/).
+
+Decimal Support: Handles both integers and decimal numbers correctly.
+
+Chained Calculations: Allows users to perform multiple operations in sequence without losing the current total.
+
+State Management:
+
+Clear: Remove the last entry.
+
+Reset (AC): Clear the entire history and start fresh.
+
+Technologies Used:
+
+React
+
+Redux
+
+JavaScript (ES6+)
