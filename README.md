@@ -14,6 +14,6 @@ This is my inaugural project created during the freeCodeCamp web development cou
 
 ## Technologies Used
 
-* React
+* React - Vite
 * Redux
 * JavaScript (ES6+)
